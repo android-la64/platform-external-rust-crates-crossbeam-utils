@@ -97,6 +97,7 @@ use core::ops::{Deref, DerefMut};
         target_arch = "mips",
         target_arch = "mips64",
         target_arch = "riscv64",
+        target_arch = "loongarch64",
     ),
     repr(align(32))
 )]
@@ -122,6 +123,7 @@ use core::ops::{Deref, DerefMut};
         target_arch = "mips64",
         target_arch = "riscv64",
         target_arch = "s390x",
+        target_arch = "loongarch64",
     )),
     repr(align(64))
 )]
